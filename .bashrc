@@ -116,3 +116,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+
+# zoxide
+eval "$(zoxide init --cmd cd bash)"
