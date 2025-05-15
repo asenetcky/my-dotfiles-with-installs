@@ -1,6 +1,6 @@
 # ls
-alias ls='ls -la --group-directories-first'
-alias ll='ls -alF'
+alias ls='eza -la --group-directories-first --long'
+alias ll='eza -alF --git --grid --group-directories-first'
 alias la='ls -A'
 alias l='ls -CF'
 alias l.='ls -d .* --color=auto'
@@ -14,8 +14,8 @@ alias gp='git push'
 alias gpl='git pull'
 alias gsua='git submodule update --recursive --remote'
 alias gsw='git switch'
-# alias gcob='git branch | fzf | xargs git checkout'
-# alias lg='lazygit'
+alias gcob='git branch | fzf | xargs git checkout'
+alias lg='lazygit'
 
 # dots
 alias ..='cd ..'
